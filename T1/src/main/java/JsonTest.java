@@ -45,13 +45,6 @@ public class JsonTest {
         String s = readJsonFile(path);
         JSONObject jobj = JSON.parseObject(s);
 
-//        JSONArray arr=jobj.getJSONArray("paths");
-//        for(int i=0;i<arr.size();i++){
-//            JSONObject jsonObject=arr.getJSONObject(i);
-//            System.out.println(jsonObject);
-//        }
-
-
 //        JSONObject pathObject=jobj.getJSONObject("paths");
 //        JSONArray feedsArray = pathObject.getJSONArray("parameters");
 //        for (int i = 0; i < feedsArray.size(); i++) {
